@@ -5,7 +5,7 @@ b = 1
 position = 1
 sum = 0
 while n>0:
-    if position>=k:
+    if position >= k:
         sum += a
         n -= 1
     a = b
