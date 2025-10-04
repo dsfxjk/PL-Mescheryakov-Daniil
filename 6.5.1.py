@@ -6,3 +6,6 @@ else:
     for i in range(len(spisok) - 1):
         if spisok[i] < 0  and spisok[i+1] < 0:
             print(spisok[i], spisok [i+1])
+
+'''Дан одномерный массив из 10 целых чисел. Вывести пары отрицательных
+чисел, стоящих рядом'''
