@@ -1,11 +1,11 @@
-stringi = input("Введите текст: ")
+string = input("Введите текст: ")
 
-def reverse_stringi(s):
+def reverse_string(s):
     words = s.split()
-    reversed_stringi = words[::-1]
-    return " ".join(reversed_stringi)
+    reversed_string = words[::-1]
+    return " ".join(reversed_string)
 
-print(reverse_stringi(stringi))
+print(reverse_string(string))
 
 '''Составить программу, которая изменяет последовательность слов в строке на
 обратную.'''
