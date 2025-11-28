@@ -66,7 +66,7 @@ text.pack(fill='both', expand=True, padx=5, pady=5)
 
 # загрузка текста из файла
 def load_text():
-    file = filedialog.askopenfilename(filetypes=[("Text files", "*.txt")])
+    file = filedialog.askopenfilename()
     if file:
         with open(file, 'r') as f:
             text.delete(1.0, tk.END)
