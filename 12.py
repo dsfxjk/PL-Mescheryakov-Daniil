@@ -4,7 +4,7 @@ import requests
 import json
 
 
-def get_info(event=None):
+def get_info():
     repo = entry.get()
     if not repo:
         return
