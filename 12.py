@@ -5,7 +5,7 @@ import json
 
 
 def get_info(event=None):
-    repo = entry.get().strip()
+    repo = entry.get()
     if not repo:
         return
 
